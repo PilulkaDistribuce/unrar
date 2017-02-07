@@ -1,6 +1,6 @@
 <?php
 
-namespace Pilulka\Php;
+namespace Pilulka\Rar\Contract;
 
 interface RarArchive extends \Traversable
 {

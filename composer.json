@@ -1,5 +1,10 @@
 {
-    "require": {
-        "phpunit/phpunit": "^5.7"
-    }
+  "autoload": {
+    "files": [
+      "src/autoload.php"
+    ]
+  },
+  "require": {
+    "phpunit/phpunit": "^5.7"
+  }
 }

@@ -1,9 +1,10 @@
 <?php
 
-namespace Pilulka\Php;
+namespace Pilulka\Rar;
 
-interface RarEntry
+class Entry implements Contract\RarEntry
 {
+
     /* Constants */
     const HOST_MSDOS = 0;
     const HOST_OS2 = 1;
@@ -47,33 +48,74 @@ interface RarEntry
     const ATTRIBUTE_UNIX_SYM_LINK = 40960;
     const ATTRIBUTE_UNIX_SOCKET = 49152;
 
-    /* Methods */
-    public function extract($dir, $filepath = "", $password = NULL, $extended_data = false);
+    public function extract($dir, $filepath = "", $password = NULL, $extended_data = false)
+    {
+        // TODO: Implement extract() method.
+    }
 
-    public function getAttr();
+    public function getAttr()
+    {
+        // TODO: Implement getAttr() method.
+    }
 
-    public function getCrc();
+    public function getCrc()
+    {
+        // TODO: Implement getCrc() method.
+    }
 
-    public function getFileTime();
+    public function getFileTime()
+    {
+        // TODO: Implement getFileTime() method.
+    }
 
-    public function getHostOs();
+    public function getHostOs()
+    {
+        // TODO: Implement getHostOs() method.
+    }
 
-    public function getMethod();
+    public function getMethod()
+    {
+        // TODO: Implement getMethod() method.
+    }
 
-    public function getName();
+    public function getName()
+    {
+        // TODO: Implement getName() method.
+    }
 
-    public function getPackedSize();
+    public function getPackedSize()
+    {
+        // TODO: Implement getPackedSize() method.
+    }
 
-    public function getStream($password);
+    public function getStream($password)
+    {
+        // TODO: Implement getStream() method.
+    }
 
-    public function getUnpackedSize();
+    public function getUnpackedSize()
+    {
+        // TODO: Implement getUnpackedSize() method.
+    }
 
-    public function getVersion();
+    public function getVersion()
+    {
+        // TODO: Implement getVersion() method.
+    }
 
-    public function isDirectory();
+    public function isDirectory()
+    {
+        // TODO: Implement isDirectory() method.
+    }
 
-    public function isEncrypted();
+    public function isEncrypted()
+    {
+        // TODO: Implement isEncrypted() method.
+    }
 
-    public function __toString();
+    public function __toString()
+    {
+        // TODO: Implement __toString() method.
+    }
 
 }
